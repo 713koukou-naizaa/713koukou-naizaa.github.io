@@ -36,35 +36,30 @@ function switchTheme() {
 //redirect to the about me section
 function redirectAboutMe() { window.location.href = "index.html#id-aboutme-section"; }
 
-// redirect to the about me section from the project folder
-function redirectAboutMeFromProject() { window.location.href = "../index.html#id-aboutme-section"; }
-
 //redirect to the skills section
 function redirectSkills() { window.location.href = "index.html#id-skills-section"; }
-
-//redirect to the skills section from the project folder
-function redirectSkillsFromProject() { window.location.href = "../index.html#id-skills-section"; }
 
 //redirect to the formation section
 function redirectFormation() { window.location.href = "index.html#id-formation-section"; }
 
-//redirect to the formation section from the project folder
-function redirectFormationFromProject() { window.location.href = "../index.html#id-formation-section"; }
-
-//redirect to the hobbies section
-function redirectHobbies() { window.location.href = "index.html#id-hobbies-section"; }
-
-//redirect to the hobbies section from the project folder
-function redirectHobbiesFromProject() { window.location.href = "../index.html#id-hobbies-section"; }
-
 //redirect to the university projects page
 function redirectUniversityProjects() { window.location.href = "universityProjects.html"; }
 
-//redirect to the university projects page from the project folder
-function redirectUniversityProjectsFromProject() { window.location.href = "../universityProjects.html"; }
+// redirect to the about me section from the project folder
+function redirectAboutMeFromProject() { window.location.href = "../index.html#id-aboutme-section"; }
 
 //redirect to the personal projects page
 function redirectPersonalProjects() { window.location.href = "personalProjects.html"; }
+
+
+//redirect to the skills section from the project folder
+function redirectSkillsFromProject() { window.location.href = "../index.html#id-skills-section"; }
+
+//redirect to the formation section from the project folder
+function redirectFormationFromProject() { window.location.href = "../index.html#id-formation-section"; }
+
+//redirect to the university projects page from the project folder
+function redirectUniversityProjectsFromProject() { window.location.href = "../universityProjects.html"; }
 
 //redirect to the personal projects page from the project folder
 function redirectPersonalProjectsFromProject() { window.location.href = "../personalProjects.html"; }
