@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Home</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <script src="js/header.js"></script>
+    <script src="js/buttons.js"></script>
+</head>
+
+<body id="id-body" class="dark-body">
+    <header id="id-header" class="header">
+
+        <section class="utility-section">
+            <button class="dark-switch-theme-button" onclick="switchTheme()">Switch theme</button>
+        </section>
+
+        <section class="profile-section">
+
+            <section class="profile-picture-section">
+                <img alt="profile picture" class="profile-picture" src="assets/img/profile-picture-150.jpg" />
+            </section>
+
+            <section class="profile-name-section dark-profile-name"> HAMID Enzo </section>
+
+            <section class="profile-title-section">
+                <div class="dark-profile-title">Student in Computer Science</div>
+            </section>
+
+            <section class="profile-social-media-section">
+                <img alt="github" title="Personal GitHub" class="profile-social-media-icon" onclick="redirectGitHubPersonal()"
+                    src="assets/img/github-logo-250.png" />
+                <img alt="github" title="University GitHub" class="profile-social-media-icon" onclick="redirectGitHubUniversity()"
+                    src="assets/img/github-logo-250.png" />
+                <img alt="linkedin" class="profile-social-media-icon" onclick="redirectLinkedIn()"
+                    src="assets/img/linkedin-logo-1440.png" />
+                <img alt="discord" class="profile-social-media-icon" onclick="redirectDiscord()"
+                    src="assets/img/discord-logo-1080.png" />
+            </section>
+
+        </section>
+
+        <nav id="id-nav" class="main-menu-section">
+            <button class="dark-main-menu-button" onclick="redirectAboutMe()">About me</button>
+            <button class="dark-main-menu-button" onclick="redirectSkills()">Skills</button>
+            <button class="dark-main-menu-button" onclick="redirectFormation()">Formation</button>
+            <button class="dark-main-menu-button" onclick="redirectHobbies()">Hobbies</button>
+            <button class="dark-main-menu-button" onclick="redirectUniversityProjects()">University projects</button>
+            <button class="dark-main-menu-button" onclick="redirectPersonalProjects()">Personal projects</button>
+            <button class="dark-main-menu-button" onclick="redirectBottomOfPage()">Contact</button>
+        </nav>
+
+    </header>
+
+    <hr id="id-hr-top" class="dark-hr-top">
+
+    <!--main content-->
+    <main id="id-main" class="dark-main">
+        <section id="id-aboutme-section">
+            <section class="dark-main-title1-section">
+                <div class="dark-main-title1">About me</div>
+                <p class="dark-main-paragraph">
+                    I'm a first-year student at the IUT de Bayonne et du Pays Basque I follow the formation BUT.
+                </p>
+            </section>
+        </section>
+
+        <section id="id-skills-section">
+            <section class="dark-main-title1-section">
+                <div class="dark-main-title1">Skills</div>
+
+                <section class="dark-main-title2-section">
+                    <div class="dark-main-title2">Hard skills</div>
+
+                    <section class="dark-hard-skills-table-section">
+
+                        <div id="id-hard-skills-table-column1" class="dark-hard-skills-table-column">
+                            <p id="id-hard-skills-table-column1-title" class="dark-hard-skills-table-column-title">Web</p>
+
+                            <div class="dark-hard-skills-table-row-normal">HTML/CSS : 40%</div>
+                            <div class="dark-hard-skills-table-row-normal">abc</div>
+                            <div class="dark-hard-skills-table-row-normal">abc</div>
+                            <div class="dark-hard-skills-table-row-normal">abc</div>
+                            <div class="dark-hard-skills-table-row-normal">abc</div>
+                            <div class="dark-hard-skills-table-row-bottom">abc</div>
+                        </div>
+
+                        <div id="id-hard-skills-table-column2" class="dark-hard-skills-table-column">
+                            <p id="id-hard-skills-table-column2-title" class="dark-hard-skills-table-column-title">Database
+                            </p>
+
+                            <div class="dark-hard-skills-table-row-normal">MySQL : 30%</div>
+                            <div class="dark-hard-skills-table-row-normal">SQL : 40%</div>
+                            <div class="dark-hard-skills-table-row-normal">Merise : 60%</div>
+                            <div class="dark-hard-skills-table-row-normal">UML : 60%</div>
+                            <div class="dark-hard-skills-table-row-normal">ODBC : 70%</div>
+                            <div class="dark-hard-skills-table-row-bottom">abc</div>
+                        </div>
+
+                        <div id="id-hard-skills-table-column3" class="dark-hard-skills-table-column">
+                            <p id="id-hard-skills-table-column3-title" class="dark-hard-skills-table-column-title">
+                                Development</p>
+
+                            <div class="dark-hard-skills-table-row-normal">C# : 40%</div>
+                            <div class="dark-hard-skills-table-row-normal">C++ : 60%</div>
+                            <div class="dark-hard-skills-table-row-normal">Python : 50%</div>
+                            <div class="dark-hard-skills-table-row-normal">Bash : 50%</div>
+                            <div class="dark-hard-skills-table-row-normal">OOP : 60%</div>
+                            <div class="dark-hard-skills-table-row-bottom">abc</div>
+                        </div>
+
+                        <div id="id-hard-skills-table-column4" class="dark-hard-skills-table-column">
+                            <p id="id-hard-skills-table-column4-title" class="dark-hard-skills-table-column-title">Utilities
+                            </p>
+
+                            <div class="dark-hard-skills-table-row-normal">Figma : 40%</div>
+                            <div class="dark-hard-skills-table-row-normal">Qt : 60%</div>
+                            <div class="dark-hard-skills-table-row-normal">Git : 40%</div>
+                            <div class="dark-hard-skills-table-row-normal">GitHub : 40%</div>
+                            <div class="dark-hard-skills-table-row-normal">Unity : 40%</div>
+                            <div class="dark-hard-skills-table-row-bottom">PhotoShop/Illustrator : 40%</div>
+                        </div>
+
+                    </section>
+                </section>
+
+            </section>
+
+            <section class="dark-main-title1-section">
+                <section class="dark-main-title2-section">
+                    <div class="dark-main-title2">Soft skills</div>
+
+                    <p class="dark-main-paragraph">Drawing</p>
+                    <p class="dark-main-paragraph">Games[FPS, RPG]</p>
+                    <p class="dark-main-paragraph">Programmation</p>
+                </section>
+            </section>
+
+        </section>
+
+        <section id="id-formation-section">
+            <section class="dark-main-title1-section">
+                <div class="dark-main-title1">Formation</div>
+                <p class="dark-main-paragraph">
+                    Formation paragraph
+                </p>
+            </section>
+        </section>
+
+        <section id="id-hobbies-section">
+            <section class="dark-main-title1-section">
+                <div class="dark-main-title1">Hobbies</div>
+                <p class="dark-main-paragraph">
+                    Hobbies paragraph
+                </p>
+            </section>
+        </section>
+    </main>
+
+    <hr id="id-hr-bottom" class="dark-hr-bottom">
+
+    <footer class="footer">
+
+        <section class="top-footer-section">
+            <button class="dark-default-button" onclick="redirectTopOfPage()">Top of the page</button>
+        </section>
+
+        <section class="copyright-section">
+            &copy; 2024 Hamid Enzo. All rights reserved.
+        </section>
+
+        <section id="id-contact-section" class="contact-section">
+            <div class="dark-contact-title1">Contact</div>
+            Email (personal) : <a href="mailto:nzo.etd@gmail.com">nzo.etd@gmail.com</a><br>
+            Email (university) : <a href="mailto:ehamid@iutbayonne.univ-pau.fr">ehamid@iutbayonne.univ-pau.fr</a><br>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

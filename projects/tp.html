@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Memoris</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+</head>
+
+<body class="dark-body">
+    <header id="id-header" class="header">
+
+        <section class="utility-section">
+            <button class="dark-switch-theme-button" onclick="switchTheme()">Switch theme</button>
+        </section>
+
+        <section class="profile-section">
+
+            <section class="profile-picture-section">
+                <img alt="profile picture" class="profile-picture" src="../assets/img/profile-picture-150.jpg" />
+            </section>
+
+            <section class="profile-name-section dark-profile-name"> HAMID Enzo </section>
+
+            <section class="profile-title-section">
+                <div class="dark-profile-title">Student in Computer Science</div>
+            </section>
+
+            <section class="profile-social-media-section">
+                <img alt="github" title="Personal GitHub" class="profile-social-media-icon" onclick="redirectGitHubPersonal()"
+                    src="../assets/img/github-logo-250.png" />
+                <img alt="github" title="University GitHub" class="profile-social-media-icon" onclick="redirectGitHubUniversity()"
+                    src="../assets/img/github-logo-250.png" />
+                <img alt="linkedin" class="profile-social-media-icon" onclick="redirectLinkedIn()"
+                    src="../assets/img/linkedin-logo-1440.png" />
+                <img alt="discord" class="profile-social-media-icon" onclick="redirectDiscord()"
+                    src="../assets/img/discord-logo-1080.png" />
+            </section>
+
+        </section>
+
+        <nav id="id-nav" class="main-menu-section">
+            <button class="dark-main-menu-button" onclick="redirectAboutMeFromProject()">About me</button>
+            <button class="dark-main-menu-button" onclick="redirectSkillsFromProject()">Skills</button>
+            <button class="dark-main-menu-button" onclick="redirectFormationFromProject()">Formation</button>
+            <button class="dark-main-menu-button" onclick="redirectHobbiesFromProject()">Hobbies</button>
+            <button class="dark-main-menu-button" onclick="redirectUniversityProjectsFromProject()">University projects</button>
+            <button class="dark-main-menu-button" onclick="redirectPersonalProjectsFromProject()">Personal projects</button>
+            <button class="dark-main-menu-button" onclick="redirectBottomOfPageFromProject()">Contact</button>
+        </nav>
+
+    </header>
+
+    <hr id="id-hr-top" class="dark-hr-top">
+
+    <!--main content-->
+    <main id="id-main" class="dark-main">
+        <section class="dark-main-title1-section">
+            <div class="dark-main-title1">tp.sh</div>
+
+            <p class="dark-main-paragraph">
+                tp.sh is a script I created to help me navigate through my courses and projects by saving me the hassle
+                of clicking folders after folders while keeping an organized workspace.
+            </p>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="dark-hr-bottom">
+
+    <footer class="footer">
+
+        <section class="top-footer-section"> <button id="id-top-of-page-button" class="dark-default-button"
+                onclick="redirectTopOfPage()">Top of the page</button> </section>
+
+        <section class="copyright-section">&copy; 2024 Hamid Enzo. All rights reserved.</section>
+
+        <section class="contact-section">
+            <div id="id-contact-title" class="dark-contact-title1">Contact</div>
+            Email (personal) : <a href="mailto:nzo.etd@gmail.com">nzo.etd@gmail.com</a><br>
+            Email (university) : <a href="mailto:ehamid@iutbayonne.univ-pau.fr">ehamid@iutbayonne.univ-pau.fr</a><br>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

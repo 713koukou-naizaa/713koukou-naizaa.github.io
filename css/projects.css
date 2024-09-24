@@ -1,0 +1,9 @@
+/*styling for the projects page*/
+
+
+.dark-projects-intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,78 @@
+/*styling for the common elements*/
+
+
+/*default styling*/
+* {
+    font-size:20px;
+    font-family: system-ui;
+}
+
+
+.dark-body {
+    background-color: rgb(51, 51, 51);
+    color:white;
+}
+
+.light-body {
+    background-color: rgb(255, 255, 255); /*235, 235, 235*/
+    color:black;
+}
+
+.dark-hr-top {
+    height: 1px;
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0));
+    padding: 0;
+    margin: 20px 0px 20px 0px;
+    border: 0;
+}
+
+.dark-hr-bottom {
+    height: 1px;
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+    padding: 0;
+    margin: 20px 0px 20px 0px;
+    border: 0;
+}
+
+.dark-main {
+    margin: 0 auto;
+    width:70%;
+}
+
+.dark-main-title1 {
+    font-weight:1000;
+    font-size:30px;
+}
+
+.dark-main-title1-section {
+    margin: 0 auto;
+    width:95%;
+}
+
+.dark-main-title2 {
+    font-weight:1000;
+    font-size:25px;
+}
+
+.dark-main-title2-section {
+    margin: 0 auto;
+    width:95%;
+}
+
+.dark-main-title3 {
+    font-weight:1000;
+    font-size:20px;
+}
+
+.dark-main-title3-section {
+    margin: 0 auto;
+    width:95%;
+}
+
+.dark-main-paragraph {
+    margin:0 auto;
+    width:95%;
+}
+
+
+
