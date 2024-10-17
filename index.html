@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamid Enzo - Home</title>
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/common.css">
@@ -19,30 +19,35 @@
     <header id="id-header" class="header">
 
         <section class="utility-section">
+            <button class="dark-default-button" onclick="redirectBottomOfPage()">Bottom of the page</button>
             <button class="dark-switch-theme-button" onclick="switchTheme()">Switch theme</button>
         </section>
 
         <section class="profile-section">
 
             <section class="profile-picture-section">
-                <img alt="profile picture" class="profile-picture" src="assets/img/profile-picture-150.jpg" />
+                <img alt="profile" class="profile-picture" src="assets/img/profile-picture-150.jpg" />
             </section>
 
             <section class="profile-name-section dark-profile-name"> HAMID Enzo </section>
 
             <section class="profile-title-section">
-                <div class="dark-profile-title">Student in Computer Science</div>
+                <div class="dark-sub-infos">Student in Computer Science</div>
             </section>
 
             <section class="profile-social-media-section">
-                <img alt="github" title="Personal GitHub" class="profile-social-media-icon"
-                    onclick="redirectGitHubPersonal()" src="assets/img/github-logo-250.png" />
-                <img alt="github" title="University GitHub" class="profile-social-media-icon"
-                    onclick="redirectGitHubUniversity()" src="assets/img/github-logo-250.png" />
-                <img alt="linkedin" class="profile-social-media-icon" onclick="redirectLinkedIn()"
-                    src="assets/img/linkedin-logo-1440.png" />
-                <img alt="discord" class="profile-social-media-icon" onclick="redirectDiscord()"
-                    src="assets/img/discord-logo-1080.png" />
+                <img alt="personal github" title="Personal GitHub" class="profile-social-media-icon"
+                    onclick="redirectGitHubPersonal()" src="assets/img/social-medias/github-logo-250.png" />
+                <img alt="university github" title="University GitHub" class="profile-social-media-icon"
+                    onclick="redirectGitHubUniversity()" src="assets/img/social-medias/github-logo-250.png" />
+                <img alt="linked in" title="Linked In" class="profile-social-media-icon"
+                    onclick="redirectLinkedIn()" src="assets/img/social-medias/linkedin-logo-1440.png" />
+                <img alt="discord" title="Discord" class="profile-social-media-icon"
+                    onclick="redirectDiscord()" src="assets/img/social-medias/discord-logo-1080.png" />
+                <a href="assets/downloads/enzo-hamid-resume.pdf" download="enzo-hamid-resume.pdf" target="_blank">
+                <img alt="resume" title="Resume" class="profile-social-media-icon" 
+                    src="assets/img/social-medias/cv-logo-white-bg-max.png" />
+                </a>
             </section>
 
         </section>
@@ -87,8 +92,6 @@
                             for a long time.</li>
                         <li>Beside all that, I like to find time to draw digitally, I always listen to musics and I've
                             done a bit of piano in my life (self-taught).</li>
-                        <li>Finally, I've been playing video games since I was a child (I'm mostly into FPS and
-                            Minecraft).</li>
                     </ul>
                 </section>
             </section>
@@ -96,64 +99,14 @@
 
         <section id="id-skills-section">
             <section class="dark-main-title1-section">
-                <div class="dark-main-title1">Skills</div>
+                <div class="dark-main-title1">Main skills</div>
 
                 <section class="dark-main-title2-section">
-                    <div class="dark-main-title2">Hard skills</div>
+                    <div class="dark-main-title2">Soft skills</div>
+                    <p class="dark-main-paragraph">
+                        Soft skills paragraph?
+                    </p>
 
-                    <section class="dark-hard-skills-table-section">
-
-                        <div id="id-hard-skills-table-column1" class="dark-hard-skills-table-column">
-                            <p id="id-hard-skills-table-column1-title" class="dark-hard-skills-table-column-title">Web
-                            </p>
-
-                            <div class="dark-hard-skills-table-row-normal">HTML/CSS : 40%</div>
-                            <div class="dark-hard-skills-table-row-normal">abc</div>
-                            <div class="dark-hard-skills-table-row-normal">abc</div>
-                            <div class="dark-hard-skills-table-row-normal">abc</div>
-                            <div class="dark-hard-skills-table-row-normal">abc</div>
-                            <div class="dark-hard-skills-table-row-bottom">abc</div>
-                        </div>
-
-                        <div id="id-hard-skills-table-column2" class="dark-hard-skills-table-column">
-                            <p id="id-hard-skills-table-column2-title" class="dark-hard-skills-table-column-title">
-                                Database
-                            </p>
-
-                            <div class="dark-hard-skills-table-row-normal">MySQL : 30%</div>
-                            <div class="dark-hard-skills-table-row-normal">SQL : 40%</div>
-                            <div class="dark-hard-skills-table-row-normal">Merise : 60%</div>
-                            <div class="dark-hard-skills-table-row-normal">UML : 60%</div>
-                            <div class="dark-hard-skills-table-row-normal">ODBC : 70%</div>
-                            <div class="dark-hard-skills-table-row-bottom">abc</div>
-                        </div>
-
-                        <div id="id-hard-skills-table-column3" class="dark-hard-skills-table-column">
-                            <p id="id-hard-skills-table-column3-title" class="dark-hard-skills-table-column-title">
-                                Development</p>
-
-                            <div class="dark-hard-skills-table-row-normal">C# : 40%</div>
-                            <div class="dark-hard-skills-table-row-normal">C++ : 60%</div>
-                            <div class="dark-hard-skills-table-row-normal">Python : 50%</div>
-                            <div class="dark-hard-skills-table-row-normal">Bash : 50%</div>
-                            <div class="dark-hard-skills-table-row-normal">OOP : 60%</div>
-                            <div class="dark-hard-skills-table-row-bottom">abc</div>
-                        </div>
-
-                        <div id="id-hard-skills-table-column4" class="dark-hard-skills-table-column">
-                            <p id="id-hard-skills-table-column4-title" class="dark-hard-skills-table-column-title">
-                                Utilities
-                            </p>
-
-                            <div class="dark-hard-skills-table-row-normal">Figma : 40%</div>
-                            <div class="dark-hard-skills-table-row-normal">Qt : 60%</div>
-                            <div class="dark-hard-skills-table-row-normal">Git : 40%</div>
-                            <div class="dark-hard-skills-table-row-normal">GitHub : 40%</div>
-                            <div class="dark-hard-skills-table-row-normal">Unity : 40%</div>
-                            <div class="dark-hard-skills-table-row-bottom">PhotoShop/Illustrator : 40%</div>
-                        </div>
-
-                    </section>
                 </section>
 
             </section>
@@ -164,7 +117,21 @@
             <section class="dark-main-title1-section">
                 <div class="dark-main-title1">Formation</div>
                 <p class="dark-main-paragraph">
-                    Formation paragraph
+                    <section class="dark-main-title2-section">
+                        <div class="dark-main-title2">Institut Universitaire de Technologie (IUT)</div>
+                        <div class="dark-sub-infos">September 2023 - present</div>
+                            <p class="dark-main-paragraph">
+                                This formation consists in 6 modules around the main domains of computer science :
+                            </p>
+                            <ul>
+                                <li>Applications development : development, conception, testing and integration of web, console, GUI applications.</li>
+                                <li>Applications optimization : execution time, resources consumption.</li>
+                                <li>Administration of IT systems : install, configure and maintain infrastructures and networks.</li>
+                                <li>Data management : manage, exploit and deliver data.</li>
+                                <li>Project management : carry out and organize projects, satisfy clients needs.</li>
+                                <li>Team working : acquire, hone and exploit a team's aptitudes for efficient work.</li>
+                            </ul>
+                    </section>
                 </p>
             </section>
         </section>

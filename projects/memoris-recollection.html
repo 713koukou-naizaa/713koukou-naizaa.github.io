@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Memoris: Recollection</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+</head>
+
+<body class="dark-body">
+    <header id="id-header" class="header">
+
+        <section class="utility-section">
+            <button class="dark-default-button" onclick="redirectBottomOfPage()">Bottom of the page</button>
+            <button class="dark-switch-theme-button" onclick="switchTheme()">Switch theme</button>
+        </section>
+
+        <section class="profile-section">
+
+            <section class="profile-picture-section">
+                <img alt="profile" class="profile-picture" src="../assets/img/profile-picture-150.jpg" />
+            </section>
+
+            <section class="profile-name-section dark-profile-name"> HAMID Enzo </section>
+
+            <section class="profile-title-section">
+                <div class="dark-sub-infos">Student in Computer Science</div>
+            </section>
+
+            <section class="profile-social-media-section">
+                <img alt="personal github" title="Personal GitHub" class="profile-social-media-icon"
+                    onclick="redirectGitHubPersonal()" src="assets/img/social-medias/github-logo-250.png" />
+                <img alt="university github" title="University GitHub" class="profile-social-media-icon"
+                    onclick="redirectGitHubUniversity()" src="assets/img/social-medias/github-logo-250.png" />
+                <img alt="linked in" title="Linked In" class="profile-social-media-icon"
+                    onclick="redirectLinkedIn()" src="assets/img/social-medias/linkedin-logo-1440.png" />
+                <img alt="discord" title="Discord" class="profile-social-media-icon"
+                    onclick="redirectDiscord()" src="assets/img/social-medias/discord-logo-1080.png" />
+                <a href="assets/downloads/enzo-hamid-resume.pdf" download="enzo-hamid-resume.pdf" target="_blank">
+                <img alt="resume" title="Resume" class="profile-social-media-icon" 
+                    src="assets/img/social-medias/cv-logo-white-bg-max.png" />
+                </a>
+            </section>
+
+        </section>
+
+        <nav id="id-nav" class="main-menu-section">
+            <button class="dark-main-menu-button" onclick="redirectAboutMeFromProjects()">About me</button>
+            <button class="dark-main-menu-button" onclick="redirectSkillsFromProjects()">Skills</button>
+            <button class="dark-main-menu-button" onclick="redirectFormationFromProjects()">Formation</button>
+            <button class="dark-main-menu-button" onclick="redirectUniversityProjectsFromProjects()">University projects</button>
+            <button class="dark-main-menu-button" onclick="redirectPersonalProjectsFromProjects()">Personal projects</button>
+            <button class="dark-main-menu-button" onclick="redirectBottomOfPage()">Contact</button>
+        </nav>
+
+    </header>
+
+    <hr id="id-hr-top" class="dark-hr-top">
+
+    <!--main content-->
+    <main id="id-main" class="dark-main">
+        <section class="dark-main-title1-section">
+            <div class="dark-main-title1">Memoris: Recollection</div>
+
+            <p class="dark-main-paragraph">
+                Memoris: Recollection is a fantasy 2D RPG that I've been working on with a friend since May 2024. It was at this time both our largest project ever, but it allowed me to acquire experience in a lot of domains:
+                <ul>
+                    <li>C# with Unity</li>
+                    <li>Documents production</li>
+                    <li>LaTeX</li>
+                    <li>Version control and GitHub</li>
+                </ul>
+            </p>
+
+            <section class="dark-main-title2-section">
+                <div class="dark-main-title2">C# with Unity</div>
+                <p class="dark-main-paragraph">
+                    This project helped me to acquire experience in C# : I was able to use interfaces, inheritance and polymorphism.
+                    I also learned how to use the Unity editor : I worked with scenes, components, wrote the scripts using UnityEngine and made animations.
+                </p>
+                <div class="dark-main-title2">Documents production</div>
+                <p class="dark-main-paragraph">
+                    Due to the large amount of informations, my friend and I needed organized documents in ordi to keep track of the history, lore, characters information... Therefore we did some research on how to organize the documents of a game and what was a game design document.
+                </p>
+                <div class="dark-main-title2">LaTeX</div>
+                <p class="dark-main-paragraph">
+                    While we were at it, we decided to use LaTeX to write all the documents of our project. We first used Overleaf online but later switched to Visual Studio Code when we started versionning the documents on GitHub.
+                </p>
+                <div class="dark-main-title2">Version control and GitHub</div>
+                <p class="dark-main-paragraph">
+                    In order to share our projects, keep tabs of all the changes we did as well as saving the different versions of our work, we used github and git. At first we created a conception branch in which we put all of the documents.
+                </p>
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="dark-hr-bottom">
+
+    <footer class="footer">
+
+        <section class="top-footer-section"> <button id="id-top-of-page-button" class="dark-default-button"
+                onclick="redirectTopOfPage()">Top of the page</button> </section>
+
+        <section class="copyright-section">&copy; 2024 Hamid Enzo. All rights reserved.</section>
+
+        <section class="contact-section">
+            <div id="id-contact-title" class="dark-contact-title1">Contact</div>
+            Email (personal) : <a href="mailto:nzo.etd@gmail.com">nzo.etd@gmail.com</a><br>
+            Email (university) : <a href="mailto:ehamid@iutbayonne.univ-pau.fr">ehamid@iutbayonne.univ-pau.fr</a><br>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

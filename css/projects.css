@@ -2,8 +2,20 @@
 
 
 .dark-projects-intro-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width:95%;
 }
 
+.dark-projects-picture-section {
+    padding-left: 10px;
+}
+
+.dark-projects-picture {
+    float:right;
+    width: 25%;
+    height: 25%;
+}
+
+.dark-tools-picture {
+    height: 50px;
+    width: 50px;
+}

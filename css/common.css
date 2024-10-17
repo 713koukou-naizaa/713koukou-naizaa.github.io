@@ -7,14 +7,24 @@
     font-family: system-ui;
 }
 
+/*redefinitions*/
+ul {
+    margin:10px;
+}
+
+li {
+    margin:10px;
+}
+
 
 .dark-body {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(0, 0, 0);
+    /*before : background-color: rgb(51, 51, 51);*/
     color:white;
 }
 
 .light-body {
-    background-color: rgb(255, 255, 255); /*235, 235, 235*/
+    background-color: rgb(248, 248, 248); /*235, 235, 235*/
     color:black;
 }
 
@@ -34,38 +44,52 @@
     border: 0;
 }
 
+.dark-sub-infos {
+    font-style: italic;
+    font-size:17px;
+
+    margin-left: 20px;
+}
+
 .dark-main {
-    margin: 0 auto;
+    margin:0 auto;
     width:70%;
 }
 
 .dark-main-title1 {
+    margin: 25px;
+    margin-top: 30px;
     font-weight:1000;
     font-size:30px;
 }
 
 .dark-main-title1-section {
-    margin: 0 auto;
+    margin : 0 auto;
     width:95%;
 }
 
 .dark-main-title2 {
+    margin: 15px;
+    margin-bottom: 7px;
     font-weight:1000;
     font-size:25px;
 }
 
 .dark-main-title2-section {
-    margin: 0 auto;
+    padding-bottom: 30px;
+    margin : 0 auto;
     width:95%;
 }
 
 .dark-main-title3 {
+    margin: 10px;
     font-weight:1000;
     font-size:20px;
 }
 
 .dark-main-title3-section {
     margin: 0 auto;
+    margin-bottom: 40px;
     width:95%;
 }
 
