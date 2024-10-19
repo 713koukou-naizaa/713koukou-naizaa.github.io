@@ -13,55 +13,11 @@
 
     <script src="js/header.js"></script>
     <script src="js/buttons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body id="id-body" class="dark-body">
-    <header id="id-header" class="header">
-
-        <section class="utility-section">
-            <button class="dark-default-button" onclick="redirectBottomOfPage()">Bottom of the page</button>
-            <button class="dark-switch-theme-button" onclick="switchTheme()">Switch theme</button>
-        </section>
-
-        <section class="profile-section">
-
-            <section class="profile-picture-section">
-                <img alt="profile" class="profile-picture" src="assets/img/profile-picture-150.jpg" />
-            </section>
-
-            <section class="profile-name-section dark-profile-name"> HAMID Enzo </section>
-
-            <section class="profile-title-section">
-                <div class="dark-sub-infos">Student in Computer Science</div>
-            </section>
-
-            <section class="profile-social-media-section">
-                <img alt="personal github" title="Personal GitHub" class="profile-social-media-icon"
-                    onclick="redirectGitHubPersonal()" src="assets/img/social-medias/github-logo-250.png" />
-                <img alt="university github" title="University GitHub" class="profile-social-media-icon"
-                    onclick="redirectGitHubUniversity()" src="assets/img/social-medias/github-logo-250.png" />
-                <img alt="linked in" title="Linked In" class="profile-social-media-icon"
-                    onclick="redirectLinkedIn()" src="assets/img/social-medias/linkedin-logo-1440.png" />
-                <img alt="discord" title="Discord" class="profile-social-media-icon"
-                    onclick="redirectDiscord()" src="assets/img/social-medias/discord-logo-1080.png" />
-                <a href="assets/downloads/enzo-hamid-resume.pdf" download="enzo-hamid-resume.pdf" target="_blank">
-                <img alt="resume" title="Resume" class="profile-social-media-icon" 
-                    src="assets/img/social-medias/cv-logo-white-bg-max.png" />
-                </a>
-            </section>
-
-        </section>
-
-        <nav id="id-nav" class="main-menu-section">
-            <button class="dark-main-menu-button" onclick="redirectAboutMe()">About me</button>
-            <button class="dark-main-menu-button" onclick="redirectSkills()">Skills</button>
-            <button class="dark-main-menu-button" onclick="redirectFormation()">Formation</button>
-            <button class="dark-main-menu-button" onclick="redirectUniversityProjects()">University projects</button>
-            <button class="dark-main-menu-button" onclick="redirectPersonalProjects()">Personal projects</button>
-            <button class="dark-main-menu-button" onclick="redirectBottomOfPage()">Contact</button>
-        </nav>
-
-    </header>
+    <section id="id-header-section"></section>
 
     <hr id="id-hr-top" class="dark-hr-top">
 
@@ -94,14 +50,14 @@
 
                         <div class="dark-projects-picture-section">
                             <img alt="angry-towa" class="dark-projects-picture"
-                                src="assets/img/projects/angry-towa.jpg" />
+                                src="assets/img//projects/angry-towa.jpg" />
                         </div>
                     </div>
 
                     <div class="dark-main-title3">Description</div>
                     <p class="dark-main-paragraph">
                         Memoris: Recollection is a fantasy 2D RPG that I've been working on with a friend since May 2024. It was at this time both our largest project ever, but it allowed me to acquire experience in a lot of domains.<br>
-                        <a href="projects/memoris-recollection.html">More details on Memoris: Recollection</a><br>
+                        <a href="memoris-recollection.html">More details on Memoris: Recollection</a><br>
                         Github repository private, please contact me for more details
                     </p>
 
@@ -119,14 +75,14 @@
 
                         <div class="dark-projects-picture-section">
                             <img alt="angry-towa" class="dark-projects-picture"
-                            src="assets/img/projects/angry-towa.jpg" />
+                            src="assets/img//projects/angry-towa.jpg" />
                         </div>
                     </div>
 
                     <div class="dark-main-title3">Description</div>
                     <p class="dark-main-paragraph">
                         Minato Aqua Maid App is a python desktop application which I made to practice OOP in python and discover tkinter librairies. It consists in a simple to-do list saved in a txt file, and a random sound player.<br>
-                        <a href="projects/minato-aqua-maid-app.html">More details on Minato Aqua Maid App</a><br>
+                        <a href="minato-aqua-maid-app.html">More details on Minato Aqua Maid App</a><br>
                         <a href="https://github.com/713koukou-naizaa/minato-aqua-maid" target="_blank">Minato Aqua Maid App on GitHub</a>
                     </p>
 
@@ -144,7 +100,7 @@
 
                         <div class="dark-projects-picture-section">
                             <img alt="angry-towa" class="dark-projects-picture"
-                                src="assets/img/projects/angry-towa.jpg" />
+                                src="assets/img//projects/angry-towa.jpg" />
                         </div>
                     </div>
 
@@ -168,7 +124,7 @@
 
                         <div class="dark-projects-picture-section">
                             <img alt="angry-towa" class="dark-projects-picture"
-                            src="assets/img/projects/angry-towa.jpg" />
+                            src="assets/img//projects/angry-towa.jpg" />
                         </div>
                     </div>
 
@@ -194,7 +150,7 @@
 
                         <div class="dark-projects-picture-section">
                             <img alt="angry-towa" class="dark-projects-picture"
-                            src="assets/img/projects/angry-towa.jpg" />
+                            src="assets/img//projects/angry-towa.jpg" />
                         </div>
                     </div>
 
@@ -230,6 +186,7 @@
 
     </footer>
 
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
 </body>
 
 </html>

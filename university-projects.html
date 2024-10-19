@@ -13,57 +13,11 @@
 
     <script src="js/header.js"></script>
     <script src="js/buttons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body id="id-body" class="dark-body">
-    <header id="id-header" class="header">
-        <section class="utility-section">
-            <button class="dark-default-button" onclick="redirectBottomOfPage()">
-                Bottom of the page
-            </button>
-            <button class="dark-switch-theme-button" onclick="switchTheme()">
-                Switch theme
-            </button>
-        </section>
-
-        <section class="profile-section">
-            <section class="profile-picture-section">
-                <img alt="profile" class="profile-picture" src="assets/img/profile-picture-150.jpg" />
-            </section>
-
-            <section class="profile-name-section dark-profile-name">
-                HAMID Enzo
-            </section>
-
-            <section class="profile-title-section">
-                <div class="dark-sub-infos">Student in Computer Science</div>
-            </section>
-
-            <section class="profile-social-media-section">
-                <img alt="personal github" title="Personal GitHub" class="profile-social-media-icon"
-                    onclick="redirectGitHubPersonal()" src="assets/img/social-medias/github-logo-250.png" />
-                <img alt="university github" title="University GitHub" class="profile-social-media-icon"
-                    onclick="redirectGitHubUniversity()" src="assets/img/social-medias/github-logo-250.png" />
-                <img alt="linked in" title="Linked In" class="profile-social-media-icon"
-                    onclick="redirectLinkedIn()" src="assets/img/social-medias/linkedin-logo-1440.png" />
-                <img alt="discord" title="Discord" class="profile-social-media-icon"
-                    onclick="redirectDiscord()" src="assets/img/social-medias/discord-logo-1080.png" />
-                <a href="assets/downloads/enzo-hamid-resume.pdf" download="enzo-hamid-resume.pdf" target="_blank">
-                <img alt="resume" title="Resume" class="profile-social-media-icon" 
-                    src="assets/img/social-medias/cv-logo-white-bg-max.png" />
-                </a>
-            </section>
-        </section>
-
-        <nav id="id-nav" class="main-menu-section">
-            <button class="dark-main-menu-button" onclick="redirectAboutMe()">About me</button>
-            <button class="dark-main-menu-button" onclick="redirectSkills()">Skills</button>
-            <button class="dark-main-menu-button" onclick="redirectFormation()">Formation</button>
-            <button class="dark-main-menu-button" onclick="redirectUniversityProjects()">University projects</button>
-            <button class="dark-main-menu-button" onclick="redirectPersonalProjects()">Personal projects</button>
-            <button class="dark-main-menu-button" onclick="redirectBottomOfPage()">Contact</button>
-        </nav>
-    </header>
+    <section id="id-header-section"></section>
 
     <hr id="id-hr-top" class="dark-hr-top" />
 
@@ -98,7 +52,7 @@
                         mini-games. Though I didn't take part in the initial conception, I
                         joined the group in 2nd year in order to study agile methods and
                         SCRUM.<br />
-                        <a href="projects/comus-party.html">More details on Comus Party</a>
+                        <a href="comus-party.html">More details on Comus Party</a>
                     </p>
                 </section>
             </section>
@@ -130,7 +84,7 @@
                         to share their experiences. This project was first thought as a
                         learning experience to become accustomed to the conception  and management part of
                         a project.<br />
-                        <a href="projects/book-n-go.html">More details on Book'n'Go</a>
+                        <a href="book-n-go.html">More details on Book'n'Go</a>
                     </p>
                 </section>
             </section>
@@ -158,6 +112,7 @@
             <a href="mailto:ehamid@iutbayonne.univ-pau.fr">ehamid@iutbayonne.univ-pau.fr</a><br />
         </section>
     </footer>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
 </body>
 
 </html>

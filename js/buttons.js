@@ -45,24 +45,9 @@ function redirectFormation() { window.location.href = "index.html#id-formation-s
 //redirect to the university projects page
 function redirectUniversityProjects() { window.location.href = "university-projects.html"; }
 
-// redirect to the about me section from the project folder
-function redirectAboutMeFromProjects() { window.location.href = "../index.html#id-aboutme-section"; }
-
 //redirect to the personal projects page
 function redirectPersonalProjects() { window.location.href = "personal-projects.html"; }
 
-
-//redirect to the skills section from the project folder
-function redirectSkillsFromProjects() { window.location.href = "../index.html#id-skills-section"; }
-
-//redirect to the formation section from the project folder
-function redirectFormationFromProjects() { window.location.href = "../index.html#id-formation-section"; }
-
-//redirect to the university projects page from the project folder
-function redirectUniversityProjectsFromProjects() { window.location.href = "../university-projects.html"; }
-
-//redirect to the personal projects page from the project folder
-function redirectPersonalProjectsFromProjects() { window.location.href = "../personal-projects.html"; }
 
 
 //go to the top of the page

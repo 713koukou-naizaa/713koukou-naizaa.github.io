@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Memoris</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <script src="js/header.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body class="dark-body">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="dark-hr-top">
+
+    <!--main content-->
+    <main id="id-main" class="dark-main">
+        <section class="dark-main-title1-section">
+            <div class="dark-main-title1">Book'n'Go</div>
+
+            <p class="dark-main-paragraph">
+                Book'n'Go is a web app we designed from scratch for a project to practice project management. We first
+                had to think about the goals of an app, define the primary features,
+                think about the future main users of our app, create use case diagrams and scenarios, and mock-ups. We
+                also held multiple team-meetings as well as with our tutor and drew up many reports.
+            </p>
+
+            <section class="dark-main-title2-section">
+                <div class="dark-main-title2">Figma</div>
+                <p class="dark-main-paragraph">
+                    We created a team on Figma to work together on the tens of wireframe mock-ups for the different
+                    scenarios we imagined.
+                </p>
+            </section>
+
+            <section class="dark-main-title2-section">
+                <div class="dark-main-title2">GanttProject</div>
+                <p class="dark-main-paragraph">
+                    The group used GanttProject to plan the whole project.
+                </p>
+            </section>
+
+            <section class="dark-main-title2-section">
+                <div class="dark-main-title2">UML and Modelio</div>
+                <p class="dark-main-paragraph">
+                    UML was used with Modelio to create the different use case diagrams and therefore plan the primary
+                    features.
+                </p>
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="dark-hr-bottom">
+
+    <footer class="footer">
+
+        <section class="top-footer-section"> <button id="id-top-of-page-button" class="dark-default-button"
+                onclick="redirectTopOfPage()">Top of the page</button> </section>
+
+        <section class="copyright-section">&copy; 2024 Hamid Enzo. All rights reserved.</section>
+
+        <section class="contact-section">
+            <div id="id-contact-title" class="dark-contact-title1">Contact</div>
+            Email (personal) : <a href="mailto:nzo.etd@gmail.com">nzo.etd@gmail.com</a><br>
+            Email (university) : <a href="mailto:ehamid@iutbayonne.univ-pau.fr">ehamid@iutbayonne.univ-pau.fr</a><br>
+        </section>
+
+    </footer>
+
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+</body>
+
+</html>
