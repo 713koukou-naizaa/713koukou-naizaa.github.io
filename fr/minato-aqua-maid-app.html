@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Minato Aqua Maid App</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <script src="js/header.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body class="dark-body">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="dark-hr-top">
+
+    <!--main content-->
+    <main id="id-main" class="dark-main">
+        <section class="dark-main-title1-section">
+            <div class="dark-main-title1">Minato Aqua Maid App</div>
+
+            <p class="dark-main-paragraph">
+                Minato Aqua Maid App est une application python que j'ai réalisé afin de découvrir TKinter et la programmation d'interfaces utilisateur en général. Elle consiste en une simple to-do list sauvegardée localement dans un fichier txt, et un lecteur de sons aleatoire.<br>
+            </p>
+
+            <section class="dark-main-title2-section">
+                <div class="dark-main-title2">Python</div>
+                <p class="dark-main-paragraph">
+                    J'ai utilisé Python et ses nombreuses bibliothèques; os pour le fichier de to-do list, threading afin de joueur les sons aléatoires en fond et pygame pour jouer les sons. Ce projet a également été l'occasion pour moi d'apprendre la structure type de fichiers pythons en utilisant un dossier modules, un fichier core.py, le fichier __init__.py, et j'ai créé un fichier utility.py afin de définir des methodes spécifiques que je n'ai pas trouvé en ligne.
+                </p>
+
+                <div class="dark-main-title2">TKinter</div>
+                <p class="dark-main-paragraph">
+                    J'ai utilisé TKinter afin de faire l'interface de l'application.TODO
+                </p>
+
+                <div class="dark-main-title2">Git and GitHub</div>
+                <p class="dark-main-paragraph">
+                    J'ai utilisé Git et GitHub afin de gérer le projet et versionner l'application..
+                </p>
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="dark-hr-bottom">
+
+    <section id="id-footer-section"></section>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+    <script>$(document).ready(function() { $("#id-footer-section").load("templates/footer.html"); });</script>
+</body>
+
+</html>
