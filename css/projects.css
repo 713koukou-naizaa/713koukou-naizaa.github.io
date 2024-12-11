@@ -5,6 +5,7 @@
     width:95%;
 }
 
+
 .dark-projects-picture-section {
     padding-left: 10px;
 }
@@ -15,7 +16,27 @@
     height: 25%;
 }
 
+
 .dark-tools-picture {
     height: 50px;
     width: 50px;
+}
+
+
+.dark-skills-details-section {
+    width:95%;
+}
+
+.dark-skills-picture-section {
+    padding-left: 10px;
+    padding-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.dark-skills-picture {
+    max-width: 800px;
 }
