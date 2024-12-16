@@ -4,8 +4,12 @@
 function switchTheme() {
     document.body.classList.toggle("light-body");
 
+    let elementsToModify=document.getElementById("id-profile-picture");
+    if (elementsToModify.getAttribute("src")=="../assets/img/profile-picture-dark.png") { elementsToModify.setAttribute("src", "../assets/img/profile-picture-light.png"); }
+    else { elementsToModify.setAttribute("src", "../assets/img/profile-picture-dark.png"); }
+
     // for all elements with class dark-switch-theme-button, change the class to light-switch-theme-button
-    let elementsToModify=document.getElementsByClassName("dark-switch-theme-button");
+    elementsToModify=document.getElementsByClassName("dark-switch-theme-button");
     for (const element of elementsToModify) { element.classList.toggle("light-switch-theme-button"); }
 
     // for all elements with class dark-main-menu-button, change the class to light-main-menu-button
