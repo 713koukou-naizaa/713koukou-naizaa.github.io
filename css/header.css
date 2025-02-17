@@ -5,9 +5,6 @@
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr;
-
-    /*DEBUG adds a border to the header section*/
-    /*border: 2px solid rgb(0, 0, 216);*/
 }
 
 .utility-section {
@@ -17,8 +14,7 @@
     justify-self: end;
     align-self: start;
 
-    /*DEBUG adds a border to the utility section*/
-    /*border: 1px solid rgb(216, 0, 0);*/
+    padding-right: 15px;
 }
 
 .profile-section {
@@ -28,11 +24,6 @@
 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-
-    /*DEBUG adds a border to the profile name section*/
-    /*border: 2px solid rgb(216, 0, 0);*/
-    /*DEBUG adds a border to the profile section*/
-    /*border: 1px solid rgb(0, 17, 255);*/
 }
 
 .profile-picture-section {
@@ -41,9 +32,6 @@
 
     justify-self: right;
     align-self: center;
-
-    /*DEBUG adds a border to the profile name section*/
-    /*border: 1px solid rgb(216, 0, 0);*/
 }
 
 .profile-picture {
@@ -60,12 +48,9 @@
 
     justify-self: left;
     align-self: center;
-
-    /*DEBUG adds a border to the profile name section*/
-    /*border: 1px solid rgb(216, 0, 0);*/
 }
 
-.dark-profile-name {
+.profile-name {
     font-weight: 1000;
     font-size:40px;
 }
@@ -77,9 +62,6 @@
     justify-self: left;
     align-self: center;
     padding-left:5px;
-
-    /*DEBUG adds a border to the profile title section*/
-    /*border: 1px solid rgb(216, 0, 0);*/
 }
 
 .profile-social-media-section {
@@ -88,9 +70,6 @@
 
     justify-self: left;
     align-self: center;
-
-    /*DEBUG adds a border to the social media section*/
-    /*border: 1px solid rgb(216, 0, 0);*/
 }
 
 .profile-social-media-icon {
@@ -107,7 +86,4 @@
     grid-row: 3/4;
 
     justify-self: center;
-
-    /*DEBUG adds a border to the main-menu section*/
-    /*border: 1px solid rgb(216, 0, 0);*/
 }

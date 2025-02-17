@@ -5,9 +5,6 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2fr;
-
-    /*DEBUG adds a border to the footer section*/
-    /*border: 2px solid rgb(0, 0, 216);*/
 }
 
 .top-footer-section {
@@ -16,9 +13,6 @@
 
     justify-self: center;
     align-self: start;
-
-    /*DEBUG adds a border to the top-footer section*/
-    /*border: 1px solid rgb(216, 0, 0);*/
 }
 
 .copyright-section {
@@ -29,9 +23,6 @@
     align-self: end;
 
     font-style: italic;
-
-    /*DEBUG adds a border to the copyright section*/
-    /*border: 1px solid rgb(216, 0, 0);*/
 }
 
 .contact-section {
@@ -42,11 +33,10 @@
     align-self: end;
     text-align:right;
 
-    /*DEBUG adds a border to the contact section*/
-    /*border: 1px solid rgb(216, 0, 0);*/
+    margin-right: 15px;
 }
 
-.dark-contact-title1 {
+.contact-title1 {
     font-weight:1000;
     font-size:30px;
 }

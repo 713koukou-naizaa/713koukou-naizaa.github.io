@@ -1,42 +1,5 @@
 /*js file for the buttons*/
 
-//switch theme
-function switchTheme() {
-    document.body.classList.toggle("light-body");
-
-    let elementsToModify=document.getElementById("id-profile-picture");
-    if (elementsToModify.getAttribute("src")=="../assets/img/profile-picture-dark.png") { elementsToModify.setAttribute("src", "../assets/img/profile-picture-light.png"); }
-    else { elementsToModify.setAttribute("src", "../assets/img/profile-picture-dark.png"); }
-
-    // for all elements with class dark-switch-theme-button, change the class to light-switch-theme-button
-    elementsToModify=document.getElementsByClassName("dark-switch-theme-button");
-    for (const element of elementsToModify) { element.classList.toggle("light-switch-theme-button"); }
-
-    // for all elements with class dark-main-menu-button, change the class to light-main-menu-button
-    elementsToModify=document.getElementsByClassName("dark-main-menu-button");
-    for (const element of elementsToModify) { element.classList.toggle("light-main-menu-button"); }
-
-    // for all elements with class dark-default-button, change the class to light-default-button
-    elementsToModify=document.getElementsByClassName("dark-default-button");
-    for (const element of elementsToModify) { element.classList.toggle("light-default-button"); }
-
-    // for all elements with class dark-hard-skills-table-column, change the class to light-hard-skills-table-column
-    elementsToModify=document.getElementsByClassName("dark-hard-skills-table-column");
-    for (const element of elementsToModify) { element.classList.toggle("light-hard-skills-table-column"); }
-
-    // for all elements with class dark-hard-skills-table-column-title, change the class to light-hard-skills-table-column-title
-    elementsToModify=document.getElementsByClassName("dark-hard-skills-table-column-title");
-    for (const element of elementsToModify) { element.classList.toggle("light-hard-skills-table-column-title"); }
-
-    // for all elements with class dark-hard-skills-table-row-normal, change the class to light-hard-skills-table-row-normal
-    elementsToModify=document.getElementsByClassName("dark-hard-skills-table-row-normal");
-    for (const element of elementsToModify) { element.classList.toggle("light-hard-skills-table-row-normal"); }
-
-    // for all elements with class dark-hard-skills-table-row-bottom, change the class to light-hard-skills-table-row-bottom
-    elementsToModify=document.getElementsByClassName("dark-hard-skills-table-row-bottom");
-    for (const element of elementsToModify) { element.classList.toggle("light-hard-skills-table-row-bottom"); }
-}
-
 //redirect to the about me section
 function redirectAboutMe() { window.location.href = "home.html#id-aboutme-section"; }
 

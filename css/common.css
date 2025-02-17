@@ -17,18 +17,28 @@ li {
 }
 
 
-.dark-body {
-    background-color: rgb(0, 0, 0);
-    /*before : background-color: rgb(51, 51, 51);*/
+.body {
+    /* radial gradiant with 3 colors for smoother transition */
+    /* x and y are set to 50% by default */
+    /* 50% spawns the gradiant in the center of the window at the start */
+    background-image: radial-gradient(
+        circle at var(--x, 50%) var(--y, 50%),
+        rgb(59, 11, 11) 0%,
+        rgb(51, 22, 22) 15%,
+        rgb(26, 26, 26) 20%);
+    
+    background-size: cover; /* cover entire window */
+    background-position: center; /* center image */
+    min-height: 100%;
+    width: 100%;
+    position: relative; /* relative to window */
+    overflow-x: hidden; /* disable horizontal scroll*/
+    backdrop-filter: blur(5vmax); /* blue effect */
+
     color:white;
 }
 
-.light-body {
-    background-color: rgb(248, 248, 248); /*235, 235, 235*/
-    color:black;
-}
-
-.dark-hr-top {
+.hr-top {
     height: 1px;
     background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0));
     padding: 0;
@@ -36,7 +46,7 @@ li {
     border: 0;
 }
 
-.dark-hr-bottom {
+.hr-bottom {
     height: 1px;
     background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
     padding: 0;
@@ -44,56 +54,56 @@ li {
     border: 0;
 }
 
-.dark-sub-infos {
+.sub-infos {
     font-style: italic;
     font-size:17px;
 
     margin-left: 20px;
 }
 
-.dark-main {
+.main {
     margin:0 auto;
     width:70%;
 }
 
-.dark-main-title1 {
+.main-title1 {
     margin: 25px;
     margin-top: 30px;
     font-weight:1000;
     font-size:30px;
 }
 
-.dark-main-title1-section {
+.main-title1-section {
     margin : 0 auto;
     width:95%;
 }
 
-.dark-main-title2 {
+.main-title2 {
     margin: 15px;
     margin-bottom: 7px;
     font-weight:1000;
     font-size:25px;
 }
 
-.dark-main-title2-section {
+.main-title2-section {
     padding-bottom: 30px;
     margin : 0 auto;
     width:95%;
 }
 
-.dark-main-title3 {
+.main-title3 {
     margin: 10px;
     font-weight:1000;
     font-size:20px;
 }
 
-.dark-main-title3-section {
+.main-title3-section {
     margin: 0 auto;
     margin-bottom: 40px;
     width:95%;
 }
 
-.dark-main-paragraph {
+.main-paragraph {
     margin:0 auto;
     width:95%;
 }

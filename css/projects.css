@@ -1,33 +1,33 @@
 /*styling for the projects page*/
 
 
-.dark-projects-intro-section {
+.projects-intro-section {
     width:95%;
 }
 
 
-.dark-projects-picture-section {
+.projects-picture-section {
     padding-left: 10px;
 }
 
-.dark-projects-picture {
+.projects-picture {
     float:right;
     width: 25%;
     height: 25%;
 }
 
 
-.dark-tools-picture {
+.tools-picture {
     height: 50px;
     width: 50px;
 }
 
 
-.dark-skills-details-section {
+.skills-details-section {
     width:95%;
 }
 
-.dark-skills-picture-section {
+.skills-picture-section {
     padding-left: 10px;
     padding-top: 20px;
     
@@ -37,6 +37,6 @@
     gap: 10px;
 }
 
-.dark-skills-picture {
+.skills-picture {
     max-width: 100%;
 }

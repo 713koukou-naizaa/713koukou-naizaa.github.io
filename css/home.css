@@ -1,7 +1,7 @@
 /*styling for the index page*/
 
 
-.dark-hard-skills-table-section {
+.hard-skills-table-section {
     /*displays elements side by side*/
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,7 @@
     width: auto;
 }
 
-.dark-hard-skills-table-column {
+.hard-skills-table-column {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
 
@@ -23,19 +23,8 @@
     cursor:default;
 }
 
-.light-hard-skills-table-column {
-    background-color: rgb(0,0,0);
-    border-radius: 20px;
 
-    margin-top: 50px;
-    margin-bottom: 50px;
-
-    height:336px;
-    width:275px;
-    cursor:default;
-}
-
-.dark-hard-skills-table-column-title {
+.hard-skills-table-column-title {
     text-align: center;
     color:black;
     font-size: 25px;
@@ -44,16 +33,7 @@
     margin-bottom: 10px;
 }
 
-.light-hard-skills-table-column-title {
-    text-align: center;
-    color:white;
-    font-size: 25px;
-    font-weight: 550;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.dark-hard-skills-table-row-normal {
+.hard-skills-table-row-normal {
     background-color: rgb(228, 228, 228);
     text-align: left;
     color:black;
@@ -62,16 +42,7 @@
     padding-left: 5px;
 }
 
-.light-hard-skills-table-row-normal {
-    background-color: rgb(31, 31, 31); 
-    text-align: left;
-    color:white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-}
-
-.dark-hard-skills-table-row-bottom {
+.hard-skills-table-row-bottom {
     background-color: rgb(228, 228, 228);
     text-align: left;
     padding-top: 10px;
@@ -81,18 +52,7 @@
     border-bottom-right-radius: 20px;
 }
 
-.light-hard-skills-table-row-bottom {
-    background-color: rgb(31, 31, 31); 
-    text-align: left;
-    color:white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.dark-skills-picture {
+.skills-picture {
     height: 100px;
     width: 100px;
 }
