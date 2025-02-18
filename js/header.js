@@ -9,7 +9,4 @@ function redirectGitHubUniversity() { window.open("https://github.com/nzoEtd", "
 //redirect to linkedin in new tab
 function redirectLinkedIn() { window.open("https://www.linkedin.com/in/enzo-hamid-b67a192b3/", "_blank"); }
 
-//redirect to discord in new tab
-function redirectDiscord() { window.open("https://discord.com/users/186395526055460865", "_blank"); }
-
 
