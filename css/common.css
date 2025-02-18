@@ -64,6 +64,10 @@ li {
 .main {
     margin:0 auto;
     width:70%;
+
+    background-color: rgba(43, 43, 43, 0.5);
+    border-radius: 33px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .main-title1 {
@@ -74,6 +78,7 @@ li {
 }
 
 .main-title1-section {
+    padding-top: 1px;
     margin : 0 auto;
     width:95%;
 }
