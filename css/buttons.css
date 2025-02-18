@@ -17,6 +17,10 @@
 
 .main-menu-button:hover {
     cursor:pointer;
+    background-color: rgba(59, 59, 59, 0.4);
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
 
 /*default button*/
@@ -29,9 +33,13 @@
     border-style: solid;
     border-color: white;
     border-width: 2px;
+
+    margin: 2px;
 }
 
 .default-button:hover {
     cursor:pointer;
+    background-color: rgba(59, 59, 59, 0.4);
+    border-width: 3px;
 }
 
