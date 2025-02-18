@@ -11,6 +11,8 @@
 
     width: 200px;
     height: 85px;
+
+    margin: 2px;
 }
 
 .main-menu-button:hover {
