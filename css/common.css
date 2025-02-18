@@ -38,17 +38,9 @@ li {
     color:white;
 }
 
-.hr-top {
+.hr {
     height: 1px;
     background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0));
-    padding: 0;
-    margin: 20px 0px 20px 0px;
-    border: 0;
-}
-
-.hr-bottom {
-    height: 1px;
-    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
     padding: 0;
     margin: 20px 0px 20px 0px;
     border: 0;

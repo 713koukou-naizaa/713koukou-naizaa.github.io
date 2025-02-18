@@ -1,19 +1,19 @@
 /*js file for the buttons*/
 
-//redirect to the about me section
-function redirectAboutMe() { window.location.href = "home.html#id-aboutme-section"; }
+//redirect to the home page
+function redirectHome() { window.location.href = "home.html"; }
 
-//redirect to the skills section
-function redirectSkills() { window.location.href = "home.html#id-skills-section"; }
+//redirect to the web projects page
+function redirectWebProjects() { window.location.href = "web-projects.html"; }
 
-//redirect to the formation section
-function redirectFormation() { window.location.href = "home.html#id-formation-section"; }
+//redirect to the desktop apps page
+function redirectDesktopApps() { window.location.href = "desktop-apps.html"; }
 
-//redirect to the university projects page
-function redirectUniversityProjects() { window.location.href = "university-projects.html"; }
+//redirect to the scripts page
+function redirectScripts() { window.location.href = "scripts.html"; }
 
-//redirect to the personal projects page
-function redirectPersonalProjects() { window.location.href = "personal-projects.html"; }
+//redirect to the other projects page
+function redirectOtherProjects() { window.location.href = "other-projects.html"; }
 
 
 
