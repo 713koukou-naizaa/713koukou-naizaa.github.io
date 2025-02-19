@@ -75,3 +75,9 @@
     /* space top */
     margin-top: 20px;
 }
+
+.projects-redirect-section-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
