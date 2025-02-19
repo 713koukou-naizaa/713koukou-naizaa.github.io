@@ -43,3 +43,25 @@
     border-width: 3px;
 }
 
+.projects-redirect-button {
+    justify-self: center;
+    align-self: center;
+    width: 97%;
+
+    background-color: rgba(59, 59, 59, 0.8);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.projects-redirect-button:hover {
+    cursor:pointer;
+    background-color: rgba(59, 59, 59, 0.4);
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
