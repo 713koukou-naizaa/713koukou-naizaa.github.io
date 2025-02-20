@@ -1,1 +1,81 @@
-not implemented
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Reimu</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body class="body">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="hr">
+
+    <!--main content-->
+    <main id="id-main" class="main">
+        <section class="main-title1-section">
+            <div class="main-title1">Vision Tuner</div>
+
+            <p class="main-paragraph">
+                This python app was made to learn more about image processing and various famous algorithms such as near neighbor, bilinear interpolation, Lanczos resampling. It is why the algorithms used in the program are not the built-in ones offered by python libraries like cv2 but hand-made algorithms reproduced after I studied them.
+            </p>
+
+            <section class="main-title2-section">
+            <div class="main-title2">Nearest Neighbor</div>
+                <div class="skills-details-section">
+                    <p class="main-paragraph">
+                        Nearest Neighbor is the first algorithm I implemented, I started with a version which felt slow, but once I tried to optimize it I realized I could avoid computations inside nested loops. The first screenshot is the version pre-optimization, the second one is the version post-optimization.
+                    </p>
+                    
+                    <div class="skills-picture-section">                                    
+                        <img alt="nn-pre-opti" class="skills-picture"
+                            src="../assets/img/projects/vision-tuner/nn-pre-opti.png" />
+                        <img alt="nn-post-opti" class="skills-picture"
+                            src="../assets/img/projects/vision-tuner/nn-post-opti.png" />
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+                <div class="main-title2">Mirroring</div>
+                    <div class="skills-details-section">
+                        <p class="main-paragraph">
+                            Mirroring an image is the second function implemented, this time I was able to avoid unnecessary computation from the start thanks to my previous experience with the Nearest Neighbor algorithm. I implemented vertical, horizontal and vertical + horizontal mirroring, the algorithm is basically the same for all of them, here is the vertical mirroring one.
+                        </p>
+                        
+                        <div class="skills-picture-section">                                    
+                            <img alt="mirroring-vertical" class="skills-picture"
+                                src="../assets/img/projects/vision-tuner/mirroring-vertical.png" />
+                        </div>
+    
+                    </div>
+    
+                </section>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="hr">
+
+    <section id="id-footer-section"></section>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+    <script>$(document).ready(function() { $("#id-footer-section").load("templates/footer.html"); });</script>
+</body>
+
+</html>
