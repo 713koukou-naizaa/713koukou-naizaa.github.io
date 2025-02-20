@@ -1,1 +1,100 @@
-not implemented
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Reimu</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body class="body">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="hr">
+
+    <!--main content-->
+    <main id="id-main" class="main">
+        <section class="main-title1-section">
+            <div class="main-title1">Reimu</div>
+
+            <p class="main-paragraph">
+                Reimu is a python discord bot retrieving data from an ics file and offering many discord commands to fetch data. Creating this discord bot allowed me to learn more about ics files and their structure to process their data, practice a way of versionning code with one branch per version and adapt a python program into a module like one would to create an API.
+            </p>
+
+            <section class="main-title2-section">
+            <div class="main-title2">Git and GitHub</div>
+                <div class="skills-details-section">
+                    <p class="main-paragraph">
+                        I used git in this project to create different versions of the bot by separating them into different branches. GitHub allowed me to work on the project whenever I wanted on whatever computer I was.
+
+                    </p>
+                    
+                    <div class="skills-picture-section">                                    
+                        <img alt="git-version-branches" class="skills-picture"
+                            src="../assets/img/projects/reimu/git-version-branches.png" />
+                        <img alt="github-repo" class="skills-picture"
+                            src="../assets/img/projects/reimu/github-repo.png" />
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+                <div class="main-title2">Python</div>
+                <div class="skills-details-section">
+                    <p class="main-paragraph">
+                        I used python as the main language to create this bot. I had to fetch data with the requests library of python to get the ics file and translate it into a Calendar object to process the data later.
+                    </p>
+
+                    <div class="skills-picture-section">                                    
+                        <img alt="python-requests-library" class="skills-picture"
+                            src="../assets/img/projects/reimu/python-requests-library.png" />
+                        <img alt="python-ics-process-data" class="skills-picture"
+                            src="../assets/img/projects/reimu/python-ics-process-data.png" />
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+            <div class="main-title2">Discord.py</div>
+                <div class="skills-details-section">
+                    <p class="main-paragraph">
+                        Discord.py is the library offered by discord to code a bot in python. While most of the syntax is specific to discord, it still demands to understand the principles of asyynchronous programming, event-driven programmation and OOP.
+                    </p>
+
+                    <div class="skills-picture-section">                                    
+                        <img alt="discord-py-event-prog" class="skills-picture"
+                            src="../assets/img/projects/reimu/discord-py-event-prog.png" />
+                        <img alt="discord-py-async-oop-prog" class="skills-picture"
+                            src="../assets/img/projects/reimu/discord-py-async-oop-prog.png" />
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="hr">
+
+    <section id="id-footer-section"></section>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+    <script>$(document).ready(function() { $("#id-footer-section").load("templates/footer.html"); });</script>
+</body>
+
+</html>
