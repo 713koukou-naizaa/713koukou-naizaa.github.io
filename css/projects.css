@@ -24,6 +24,10 @@
 
 .projects-picture-section {
     padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .projects-picture {
