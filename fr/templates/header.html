@@ -2,21 +2,20 @@
 <header id="id-header" class="header">
 
     <section class="utility-section">
-        <button class="dark-default-button" onclick="switchLanguage()">Switch language</button>
-        <button class="dark-default-button" onclick="redirectBottomOfPage()">Bas de la page</button>
-        <button class="dark-switch-theme-button" onclick="switchTheme()">Changer de thème</button>
+        <button class="default-button" onclick="switchLanguage()">Switch language</button>
+        <button class="default-button" onclick="redirectBottomOfPage()">Bas de la page</button>
     </section>
 
     <section class="profile-section">
 
         <section class="profile-picture-section">
-            <img id="id-profile-picture" alt="profile" class="profile-picture" src="../assets/img/profile-picture-dark.png" />
+            <img id="id-profile-picture" alt="profile" class="profile-picture" src="../assets/img/profile-picture.png" />
         </section>
 
-        <section class="profile-name-section dark-profile-name"> HAMID Enzo </section>
+        <section class="profile-name-section profile-name"> HAMID Enzo </section>
 
         <section class="profile-title-section">
-            <div class="dark-sub-infos">Étudiant en Informatique</div>
+            <div class="sub-infos">Développeur</div>
         </section>
 
         <section class="profile-social-media-section">
@@ -26,8 +25,6 @@
                 onclick="redirectGitHubUniversity()" src="../assets/img/social-medias/github-logo-250.png" />
             <img alt="linked in" title="Linked In" class="profile-social-media-icon"
                 onclick="redirectLinkedIn()" src="../assets/img/social-medias/linkedin-logo-1440.png" />
-            <img alt="discord" title="Discord" class="profile-social-media-icon"
-                onclick="redirectDiscord()" src="../assets/img/social-medias/discord-logo-1080.png" />
                 <a href="../assets/downloads/enzo_hamid_resume.pdf" download="enzo_hamid_resume.pdf" target="_blank">
             <img alt="resume" title="Resume" class="profile-social-media-icon" 
                 src="../assets/img/social-medias/cv-logo-white-bg-max.png" />
@@ -36,13 +33,13 @@
 
     </section>
 
-    <nav id="id-nav" class="main-menu-section">
-        <button class="dark-main-menu-button" onclick="redirectAboutMe()">À propos</button>
-        <button class="dark-main-menu-button" onclick="redirectSkills()">Compétences</button>
-        <button class="dark-main-menu-button" onclick="redirectFormation()">Formation</button>
-        <button class="dark-main-menu-button" onclick="redirectUniversityProjects()">Proj. universitaires</button>
-        <button class="dark-main-menu-button" onclick="redirectPersonalProjects()">Proj. personnels</button>
-        <button class="dark-main-menu-button" onclick="redirectBottomOfPage()">Contact</button>
+    <nav id="id-nav" class="main-menu-section"">
+        <button class="main-menu-button" onclick="redirectHome()">Accueil</button>
+        <button class="main-menu-button" onclick="redirectDesktopApps()">Desktop apps</button>
+        <button class="main-menu-button" onclick="redirectWebProjects()">Web projects</button>
+        <button class="main-menu-button" onclick="redirectScripts()">Scripts</button>
+        <button class="main-menu-button" onclick="redirectOtherProjects()">Autres projets</button>
+        <button class="main-menu-button" onclick="redirectBottomOfPage()">Contact</button>
     </nav>
 
 </header>
