@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Apps desktop</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="id-body" class="body">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="hr">
+
+    <!--main content-->
+    <main id="id-main" class="main">
+        <section class="main-title1-section">
+            <div class="main-title1">Desktop apps</div>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">Vision Tuner</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <img alt="git" class="tools-picture" title="Git"
+                                    src="../assets/img/tools/git.png" />
+                                <img alt="github" class="tools-picture" title="GitHub"
+                                    src="../assets/img/tools/github.png" />
+                                <img alt="python" class="tools-picture" title="Python"
+                                    src="../assets/img/tools/python.png" />
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    Vision Tuner est un outil terminal python que je développe pour apprendre le traitement d'images. Le but du programme est de permettre aux utilisateurs de modifier des images via des algorithmes de traitement d'images fait-main (interpolation nearest neighbor/bilineaire, etc.)
+                                </p>
+
+                                <div class="projects-redirect-section">
+                                    <button onclick="redirectVisionTunerPage()" class="projects-redirect-button">Plus de détails sur Vision Tuner</button>
+                                    <button onclick="redirectVisionTunerGitHub()" class="projects-redirect-button">Vision Tuner sur GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="vision-tuner" class="projects-picture"
+                                src="../assets/img/projects/vision-tuner/vision-tuner.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="hr">
+
+    <section id="id-footer-section"></section>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+    <script>$(document).ready(function() { $("#id-footer-section").load("templates/footer.html"); });</script>
+</body>
+
+</html>
