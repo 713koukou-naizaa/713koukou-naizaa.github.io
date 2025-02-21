@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Vision Tuner</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body class="body">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="hr">
+
+    <!--main content-->
+    <main id="id-main" class="main">
+        <section class="main-title1-section">
+            <div class="main-title1">Vision Tuner</div>
+
+            <p class="main-paragraph">
+                Cette application python a été faite pour en apprendre plus sur le traitement d'images et divers algorithmes comme nearest neighbor, interpolation bilinéaire, le rééchantillonnage de Lanczos. C'est pourquoi les algorithmes utilisés dans le programme sont non les algorithmes offerts par les bibliothèques python comme cv2 mais des implémentations propres que j'ai fais après les avoir étudiés.
+            </p>
+
+            <section class="main-title2-section">
+            <div class="main-title2">Nearest Neighbor</div>
+                <div class="skills-details-section">
+                    <p class="main-paragraph">
+                        Nearest Neighbor est le premier algorithme que j'ai implémenté, j'ai commencé avec une version qui me paraissait lente, mais une fois que j'ai essayé de l'optimiser j'ai réalisé que je pouvais éviter certains calculs dans des boucles imbriquées. La première capture d'écran est la version avant optimisation, la deuxième est la version post-optimisation.
+                    </p>
+                    
+                    <div class="skills-picture-section">                                    
+                        <img alt="nn-pre-opti" class="skills-picture"
+                            src="../assets/img/projects/vision-tuner/nn-pre-opti.png" />
+                        <img alt="nn-post-opti" class="skills-picture"
+                            src="../assets/img/projects/vision-tuner/nn-post-opti.png" />
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+                <div class="main-title2">Symétrie</div>
+                    <div class="skills-details-section">
+                        <p class="main-paragraph">
+                            La symétrie d'une image est la seconde fonction implémenté, cette fois-ci j'ai pu éviter des calculs dès le début grâce à mon expérience avec l'algorithme Nearest Neighbor. J'ai implémenté la symétrie verticale, horizontale et verticale + horizontale, l'algorithmes sont essentiellement les mêmes pour toutes les symétries, voici la symétrie verticale.
+                        </p>
+                        
+                        <div class="skills-picture-section">                                    
+                            <img alt="mirroring-vertical" class="skills-picture"
+                                src="../assets/img/projects/vision-tuner/mirroring-vertical.png" />
+                        </div>
+    
+                    </div>
+    
+                </section>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="hr">
+
+    <section id="id-footer-section"></section>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+    <script>$(document).ready(function() { $("#id-footer-section").load("templates/footer.html"); });</script>
+</body>
+
+</html>
