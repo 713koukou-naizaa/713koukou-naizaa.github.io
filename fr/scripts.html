@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Scripts</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="id-body" class="body">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="hr">
+
+    <!--main content-->
+    <main id="id-main" class="main">
+        <section class="main-title1-section">
+            <div class="main-title1">Scripts</div>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">auto-recorder.sh</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <img alt="bash" class="tools-picture" title="Bash"
+                                src="../assets/img/tools/bash.png" />
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    Auto-recorder est un script bash qui capture l'écran de l'hôte avec flameshot, prend une photo avec ffmpeg toutes les 15 secondes et les envoie par mail. C'est une mesure de protection en cas de vol de l'ordinateur hôte. De plus, il envoie l'adresse IP, la localisation et le SSID du wifi.
+                                </p>
+
+                                <div class="projects-redirect-section-solo">
+                                    <button class="projects-redirect-button" onclick="redirectAutoRecorderGitHub()">auto-recorder.sh sur GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="placeholder" class="projects-picture"
+                            src="../assets/img/projects/placeholder.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">db-backup.sh & db-restore.sh</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <img alt="bash" class="tools-picture" title="Bash"
+                                src="../assets/img/tools/bash.png" />
+                                <img alt="sql" class="tools-picture" title="SQL"
+                                src="../assets/img/tools/sql.png" />
+                            
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    db-backup.sh a été fait pour être exécuté avec un cron job pour faire une sauvegarde d'une base de donné mariadb avec mariadb-dump, tout en zippant la sauvegarde. db-restore.sh a été créé pour restaurer une sauvegarde de mariadb. Les deux processus sont loggués.
+                                </p>
+
+                                <div class="projects-redirect-section">
+                                    <button class="projects-redirect-button" onclick="redirectDbBackupGitHub()">db-backup.sh sur GitHub</button>
+                                    <button class="projects-redirect-button" onclick="redirectDbRestoreGitHub()">db-restore.sur on GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="db-backup" class="projects-picture"
+                            src="../assets/img/projects/db-backup/db-backup.png" />
+                            <img alt="db-restore" class="projects-picture"
+                            src="../assets/img/projects/db-restore/db-restore.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">dl-yt-playlist.py</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <img alt="python" class="tools-picture" title="Python"
+                                src="../assets/img/tools/python.png" />
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    dl-yt-playlist.py est un script python requettant l'URL d'une playlist Youtube et téléchargeant chaque video de la playlist donnée en paramètre. Il utilise l'API Youtube Data API v3.
+                                </p>
+
+                                <div class="projects-redirect-section-solo">
+                                    <button class="projects-redirect-button" onclick="redirectDlYtPlaylistGitHub()">dl-yt-playlist.py sur GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="dl-yt-playlist" class="projects-picture"
+                            src="../assets/img/projects/dl-yt-playlist/dl-yt-playlist.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">tp.sh</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <img alt="bash" class="tools-picture" title="Bash"
+                                src="../assets/img/tools/bash.png" />
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    J'aime garder mes fichiers organisés mais je finis souvent avec beaucoup de dossiers, c'est pourquoi j'ai décidé de créer ce script. tp.sh est un script bash qui ouvre l'explorateur apres avoir appelé le script avec des paramètres pré-définis dans le terminal.
+                                </p>
+
+                                <div class="projects-redirect-section-solo">
+                                    <button class="projects-redirect-button" onclick="redirectTpShGitHub()">tp.sh sur GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="tp" class="projects-picture"
+                            src="../assets/img/projects/tp/tp.sh.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">cleanDownloads.py</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <img alt="python" class="tools-picture" title="Python"
+                                src="../assets/img/tools/python.png" />
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    clean-Downloads.py est un script python que j'ai fais pour déplacer des fichiers de mon dossier Téléchargements vers un autre emplacement. Je préfère garder certains types de fichiers seulement dans mon dossier Téléchargements pour archiver ce que j'ai telechargé alors que j'ai tendance à supprimer le reste, c'est pourquoi j'ai choisi de faire ce script.
+                                </p>
+
+                                <div class="projects-redirect-section-solo">
+                                    <button class="projects-redirect-button" onclick="redirectCleanDownloadsGitHub()">clean-downloads.py sur GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="clean-downloads" class="projects-picture"
+                            src="../assets/img/projects/cleanDownloads/cleanDownloads.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">getAllFilesStats.ps1</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <img alt="powershell" class="tools-picture" title="PowerShell"
+                                src="../assets/img/tools/powershell.png" />
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    getAllFilesStats.ps1 is a powershell script I made to complete cleanDownloads.py. As I mostly keep installers in my Downloads folder, it tends to get quite large, so to avoid wasting space but still archive them, I created this script which gets all the files' metadata in my Downloads folder and writes them in a text file.
+                                </p>
+
+                                <div class="projects-redirect-section-solo">
+                                    <button class="projects-redirect-button" onclick="redirectGetAllFilesStatsGitHub()">getAllFilesStats.ps1 on GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="get-all-files-stats" class="projects-picture"
+                            src="../assets/img/projects/get-all-files-stats/get-all-files-stats.ps1.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="hr-bottom">
+
+    <section id="id-footer-section"></section>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+    <script>$(document).ready(function() { $("#id-footer-section").load("templates/footer.html"); });</script>
+</body>
+
+</html>
