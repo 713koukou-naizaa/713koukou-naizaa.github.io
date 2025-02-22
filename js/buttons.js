@@ -83,3 +83,7 @@ function switchLanguage() {
     else { console.error("Language folder not detected in the URL."); }
 }
 
+function redirectToHomeLanguage(pLanguage) {
+    // based on pLanguage, redirect to either /en/home.html or /fr/home.html
+    window.location.href = `/${pLanguage}/home.html`;
+}

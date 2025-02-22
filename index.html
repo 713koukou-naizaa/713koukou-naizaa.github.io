@@ -4,19 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamid Enzo - Home</title>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // detect browser preferred language
-            var userLang = navigator.language || navigator.userLanguage; // ie. "en-US", "fr-FR"
-            if (userLang.startsWith('en')) { window.location.href = 'en/home.html'; } // redirect to english
-            else { window.location.href = '/fr/home.html'; } // default to french
-        });
-    </script>
+    <title>Hamid Enzo - Language Choice</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <script src="js/buttons.js"></script>
 </head>
 
-<body>
-    Redirecting you based on your language...
+<body id="id-body" class="grey-background">
+    <!--main content-->
+    <main id="id-main" class="main">
+        <div class="language-choice-section">
+            <div class="language-choice-header">
+                <h1>Please choose your language</h1>
+            </div>
+            <div class="language-choice-body">
+                <button class="language-choice-button" onclick="redirectToHomeLanguage('en')">English</button>
+                <button class="language-choice-button" onclick="redirectToHomeLanguage('fr')">Français</button>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

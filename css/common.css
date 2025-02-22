@@ -17,7 +17,16 @@ li {
 }
 
 
-.body {
+.grey-background {
+    background-color: rgb(26, 26, 26);
+    min-height: 100%;
+    width: 100%;
+    position: relative; /* relative to window */
+    overflow-x: hidden; /* disable horizontal scroll */
+    color: white;
+}
+
+.radial-gradient-effect {
     /* radial gradiant with 3 colors for smoother transition */
     /* x and y are set to 50% by default */
     /* 50% spawns the gradiant in the center of the window at the start */
@@ -26,16 +35,9 @@ li {
         rgb(59, 11, 11) 0%,
         rgb(51, 22, 22) 15%,
         rgb(26, 26, 26) 20%);
-    
     background-size: cover; /* cover entire window */
     background-position: center; /* center image */
-    min-height: 100%;
-    width: 100%;
-    position: relative; /* relative to window */
-    overflow-x: hidden; /* disable horizontal scroll*/
-    backdrop-filter: blur(5vmax); /* blue effect */
-
-    color:white;
+    backdrop-filter: blur(5vmax); /* blur effect */
 }
 
 .hr {
