@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Systems & Algorithms</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="id-body" class="grey-background radial-gradient-effect">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="hr">
+
+    <!--main content-->
+    <main id="id-main" class="main">
+        <section class="main-title1-section">
+            <div class="main-title1">Systems & Algorithms</div>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">Presentations Scheduler</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <span class="tag">C++</span>
+                                <span class="tag">Algorithm</span>
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    Presentations Scheduler is a C++ scheduling component implementing a greedy algorithm to assign student internship presentations to time slots. Designed for integration with a PHP web application, it prioritizes performance and efficiency through compiled execution.
+                                </p>
+
+                                <div class="projects-redirect-section-solo">
+                                    <button onclick="redirectPresentationsSchedulerGitHub()" class="projects-redirect-button">Presentations Scheduler on GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="no-image" class="projects-picture"
+                                src="../assets/img/projects/presentations-scheduler/logo_iut_2018.jpg" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">Vision Tuner</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <span class="tag">Python</span>
+                                <span class="tag">Image Processing</span>
+                                <span class="tag">Algorithm</span>
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    Vision Tuner is a Python command-line tool I'm developing to learn image processing algorithms from scratch. The goal of the program is to allow its users to edit pictures via hand-made algorithms (nearest neighbor/bilinear interpolation, etc.).
+                                </p>
+
+                                <div class="projects-redirect-section">
+                                    <button onclick="redirectVisionTunerPage()" class="projects-redirect-button">More details on Vision Tuner</button>
+                                    <button onclick="redirectVisionTunerGitHub()" class="projects-redirect-button">Vision Tuner on GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="vision-tuner" class="projects-picture"
+                            src="../assets/img/projects/vision-tuner/vision-tuner.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">Owl Eye</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <span class="tag">Python</span>
+                                <span class="tag">Unix</span>
+                                <span class="tag">Security</span>
+                                <span class="tag">Automation</span>
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    OwlEye is a monitoring tool that automatically takes webcam photos and screenshots at regular intervals as well as collecting system information such as the IP address, the MAC address, the WiFi SSID, and geolocation, and sends this data via email. Designed to run in the background, it can help secure your device or log activity for legitimate purposes.
+                                </p>
+
+                                <div class="projects-redirect-section-solo">
+                                    <button class="projects-redirect-button" onclick="redirectOwlEyeGitHub()">Owl Eye on GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="owl-eye" class="projects-picture"
+                            src="../assets/img/projects/owl-eye/owl-eye.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="hr">
+
+    <section id="id-footer-section"></section>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+    <script>$(document).ready(function() { $("#id-footer-section").load("templates/footer.html"); });</script>
+</body>
+
+</html>

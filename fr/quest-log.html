@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Quest Log</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body class="grey-background radial-gradient-effect">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="hr">
+
+    <!--main content-->
+    <main id="id-main" class="main">
+        <section class="main-title1-section">
+            <div class="main-title1">Quest Log</div>
+
+            <p class="main-paragraph">
+                Quest Log est une application de productivité Android qui gamifie le suivi de tâches journalières à travers des méchaniques de RPG. Les utilisateurs complètent des quêtes quotidiennes et hebdomadaires pour gagner de l'expérience, monter de niveaux et éviter les pénalités, ce qui encourage les habitudes consistentes par une progression inspirée des jeux.
+            </p>
+
+            <section class="main-title2-section">
+            <div class="main-title2">Architecture</div>
+                <div class="skills-details-section">
+                    <p class="main-paragraph">
+                        Le projet suit une architecture MVVM combiné avec une couche repository pour sélarer l'UI, l'état et la gestion des données :
+                        <ul>
+                            <li>ViewModel gère l'état de l'UI et la logique métier</li>
+                            <li>La couche repository rend l'accès aux données asbtrait</li>
+                            <li>L'IU Jetpack Compose réagit aux changements d'états</li>
+                        </ul>
+                        Les mises à jour de l'état sont gérées avec des coroutines et Flow, ce qui permet des mises à jour réactives.
+                        State updates are handled using Kotlin Coroutines and Flow, enabling reactive UI updates.
+                    </p>
+
+                    <div class="skills-picture-section">                                    
+                        <img alt="architecture" class="skills-picture"
+                            src="../assets/img/projects/quest-log/architecture.png" />
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+            <div class="main-title2">Gestion des données</div>
+                <div class="skills-details-section">
+                    <p class="main-paragraph">
+                        Les données utilisateur (profile, progression, état des quêtes) sont persistés localement en utilisant DataStore. Ce système garantit :
+                        <ul>
+                            <li>La persistance</li>
+                            <li>Mises à jour d'état consistant</li>
+                            <li>Stockage local léger sans une base de données entière</li>
+                        </ul>
+                    </p>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="hr">
+
+    <section id="id-footer-section"></section>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+    <script>$(document).ready(function() { $("#id-footer-section").load("templates/footer.html"); });</script>
+</body>
+
+</html>

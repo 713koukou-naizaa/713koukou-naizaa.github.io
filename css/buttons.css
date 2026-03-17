@@ -13,6 +13,7 @@
     height: 85px;
 
     margin: 2px;
+    vertical-align: top;
 }
 
 .main-menu-button:hover {
@@ -35,6 +36,7 @@
     border-width: 2px;
 
     margin: 2px;
+    vertical-align: top;
 }
 
 .default-button:hover {
@@ -56,6 +58,7 @@
     border-style: solid;
     border-color: white;
     border-width: 2px;
+    vertical-align: top;
 }
 
 .projects-redirect-button:hover {

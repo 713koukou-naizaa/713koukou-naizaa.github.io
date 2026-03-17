@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamid Enzo - Applications</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/buttons.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="id-body" class="grey-background radial-gradient-effect">
+    <section id="id-header-section"></section>
+
+    <hr id="id-hr-top" class="hr">
+
+    <!--main content-->
+    <main id="id-main" class="main">
+        <section class="main-title1-section">
+            <div class="main-title1">Applications</div>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">Quest Log</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <span class="tag">Android</span>
+                                <span class="tag">Kotlin</span>
+                                <span class="tag">Jetpack Compose</span>
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    Quest Log est une application de productivité Android qui gamifie le suivi de tâches journalières à travers des méchaniques de RPG. Les utilisateurs complètent des quêtes quotidiennes et hebdomadaires pour gagner de l'expérience, monter de niveaux et éviter les pénalités, ce qui encourage les habitudes consistentes par une progression inspirée des jeux.
+                                </p>
+
+                                <div class="projects-redirect-section">
+                                    <button onclick="redirectQuestLogPage()" class="projects-redirect-button">Plus de détails sur QuestLog</button>
+                                    <button onclick="redirectQuestLogGitHub()" class="projects-redirect-button">QuestLog sur GitHub</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="no-image" class="projects-picture"
+                                src="../assets/img/projects/quest-log/quest-log.jpg" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="main-title2-section">
+        
+                <div class="projects-section">
+                    <div class="projects-section-text-column">
+                        <div class="main-title2">Reimu</div>
+
+                        <section class="main-title3-section">
+                            <div class="projects-intro-section">
+                                <span class="tag">Python</span>
+                                <span class="tag">Discord Bot</span>
+                                <span class="tag">Discord.py</span>
+
+                                <div class="main-title3">Description</div>
+                                <p class="main-paragraph">
+                                    Reimu est un bot Discord développé avec Python et la bibliothèque discord-py, et mis à disposition des étudiants de mon université. Il utilise une version modifiée d'un programme d'emploi du temps en python que j'ai développé pour récupérer des données d'un fichier .ics depuis le web, et envoie des messages avec des informations sur l'emploi du temps en fonction du rôle de l'utilisateur Discord surun serveur Discord. J'ai créé ce bot car le frontend du site de mon université affichant l'emploi du temps n'était pas tout le temps mis à jour de manière consistante.<br>
+                                    Dépôt Github privé, veuillez me contacter pour plus d'informations.
+                                </p>
+
+                                <div class="projects-redirect-section-solo">
+                                    <button class="projects-redirect-button" onclick="redirectReimuPage()">Plus de détails sur Reimu</button>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="projects-section-picture-column">
+
+                        <div class="projects-picture-section">
+                            <img alt="reimu" class="projects-picture"
+                                src="../assets/img/projects/reimu/reimu.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <hr id="id-hr-bottom" class="hr">
+
+    <section id="id-footer-section"></section>
+    <script>$(document).ready(function() { $("#id-header-section").load("templates/header.html"); });</script>
+    <script>$(document).ready(function() { $("#id-footer-section").load("templates/footer.html"); });</script>
+</body>
+
+</html>

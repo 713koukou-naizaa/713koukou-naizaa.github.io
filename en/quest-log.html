@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamid Enzo - Reimu</title>
+    <title>Hamid Enzo - Quest Log</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/projects.css">
     <link rel="stylesheet" href="../css/buttons.css">
@@ -25,22 +25,28 @@
     <!--main content-->
     <main id="id-main" class="main">
         <section class="main-title1-section">
-            <div class="main-title1">Reimu</div>
+            <div class="main-title1">Quest Log</div>
 
             <p class="main-paragraph">
-                Reimu is a Python discord bot retrieving data from an ics file and offering many discord commands to fetch data. Creating this discord bot allowed me to learn more about ics files and their structure to process their data, practice a way of versioning code with one branch per version, and adapt a Python program into a module like one would to create an API.
+                Quest Log is an Android productivity app that gamifies daily task tracking through RPG mechanics. Users complete daily and weekly quests to gain experience, level up, and avoid penalties, encouraging consistent habits through game-inspired progression.
             </p>
 
             <section class="main-title2-section">
-            <div class="main-title2">Git and GitHub</div>
+            <div class="main-title2">Architecture</div>
                 <div class="skills-details-section">
                     <p class="main-paragraph">
-                        I used git in this project to create different versions of the bot by separating them into different branches. GitHub allowed me to work on the project whenever I wanted on whatever computer I was.
+                        The project follows a MVVM architecture combined with a repository layer to separate the UI, the state, and the data management :
+                        <ul>
+                            <li>ViewModel manages the UI state and business logic</li>
+                            <li>Repository layer abstracts data access</li>
+                            <li>Jetpack Compose UI reacts to state changes</li>
+                        </ul>
+                        State updates are handled using Kotlin Coroutines and Flow, enabling reactive UI updates.
                     </p>
-                    
+
                     <div class="skills-picture-section">                                    
-                        <img alt="git-version-branches" class="skills-picture"
-                            src="../assets/img/projects/reimu/git-version-branches.png" />
+                        <img alt="architecture" class="skills-picture"
+                            src="../assets/img/projects/quest-log/architecture.png" />
                     </div>
 
                 </div>
@@ -48,18 +54,16 @@
             </section>
 
             <section class="main-title2-section">
-            <div class="main-title2">Discord.py</div>
+            <div class="main-title2">Data Management</div>
                 <div class="skills-details-section">
                     <p class="main-paragraph">
-                        Discord.py is the library offered by Discord to code a bot in Python. While most of the syntax is specific to discord, it still demands understanding the principles of asynchronous programming, event-driven programming, and OOP.
+                        User data (profile, progression, quest state) is persisted locally using DataStore. This system ensures :
+                        <ul>
+                            <li>Persistence across sessions</li>
+                            <li>Consistent state updates</li>
+                            <li>Lightweight local storage without a full database</li>
+                        </ul>
                     </p>
-
-                    <div class="skills-picture-section">                                    
-                        <img alt="discord-py-event-prog" class="skills-picture"
-                            src="../assets/img/projects/reimu/discord-py-event-prog.png" />
-                        <img alt="discord-py-async-oop-prog" class="skills-picture"
-                            src="../assets/img/projects/reimu/discord-py-async-oop-prog.png" />
-                    </div>
 
                 </div>
 

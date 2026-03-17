@@ -32,12 +32,11 @@ li {
     /* 50% spawns the gradiant in the center of the window at the start */
     background-image: radial-gradient(
         circle at var(--x, 50%) var(--y, 50%),
-        rgb(59, 11, 11) 0%,
-        rgb(51, 22, 22) 15%,
-        rgb(26, 26, 26) 20%);
+        rgba(59, 11, 11, 20) 0%,
+        rgba(51, 22, 22, 20) 15%,
+        rgba(26, 26, 26, 20) 20%);
     background-size: cover; /* cover entire window */
     background-position: center; /* center image */
-    backdrop-filter: blur(5vmax); /* blur effect */
 }
 
 .hr {
@@ -106,5 +105,36 @@ li {
     width:95%;
 }
 
+.tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    background-color: rgba(128, 128, 128, 0.2);
+    white-space: nowrap;
+    font-size: 16px;
+    margin-right: 4px;
+}
 
+.lightbox-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    inset: 0; /* replaces top/left/width/height */
+    background-color: rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox-modal.show {
+    display: flex;
+}
+
+.lightbox-image {
+    width: auto;
+    height: 90vh;
+    object-fit: contain;
+    cursor: pointer;
+}
 
